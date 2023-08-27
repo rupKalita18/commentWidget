@@ -1,6 +1,6 @@
 1. clone the repo
 
-2.copy the widget folder into your components.
+2.copy the components folder into your components.
 
 3. import CommentWidget.jsx into your target file.
 
