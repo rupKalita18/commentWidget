@@ -1,3 +1,33 @@
+#getting started with comment Widget
+
+1. clone the repo and add it to the components folder.
+2. You can delete or rename the app.js as per your need as the main component here is comment Widget.
+3. the `comment.jsx` component handles the nested comment and threaded reply :
+
+   props that has to be passed there are:
+
+   a) comment->the recent comment, 
+   b) comments -> the replies of the recent comment,
+   c) setComments -> setComments is a parent useState method,
+   d) usersImage -> user image and other needed properties of the logged-in user.
+   e) userId -> user Token of the logged-in user
+   f) parentName -> in case of threaded reply the parent comment author's name.
+   g) userName -> userName of the logged in user
+
+4) As of now some dummy has been used in case of these value. Replace them with the necessary values.
+5) Css can be modified as per design requirements. Css used is modular css.
+6) No external Libraries used.
+7) the `form.jsx` component has these props :
+  a) imageURL-> image of the logged-in user.
+  b) addComment-> function from the parent commentWidget
+  c) name-> name of the logged-in user
+  d) userId-> user Token of the logged-in user
+  e) handleSort-> handle sort function which takes care of the toggling sort.
+  f) sort-> the recent to be shown active sort method.
+
+8) local Storage uses can be removed or modified as per requirement in `commentWidget.jsx` component.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
