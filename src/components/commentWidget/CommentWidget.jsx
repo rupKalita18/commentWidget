@@ -9,7 +9,7 @@ const CommentWidget = () => {
   const [sortedComments, setSortedComments] = useState([]);
   const [user,setUser]=useState({
     usersImage:"https://randomuser.me/api/portraits/men/25.jpg",
-    userId:null,
+    userId:"1234",
     userName:"Rup",
 
   })

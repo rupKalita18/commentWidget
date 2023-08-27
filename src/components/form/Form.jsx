@@ -20,7 +20,7 @@ const Form = ({ imageURL, addComment,name,userId,sort,handleSort }) => {
         dislikes:0,
         time:Date.now(),
         replies:[],
-        // userId:userId
+        userId:"1234"
       }
       addComment(newComment);
       setInputText("");
