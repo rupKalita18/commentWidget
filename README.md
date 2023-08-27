@@ -1,6 +1,6 @@
 #getting started with comment Widget
 
-1. clone the repo and add it to the components folder.
+1. clone the repo, run `npm install` and add it to the components folder.
 2. You can delete or rename the app.js as per your need as the main component here is comment Widget.
 3. the `comment.jsx` component handles the nested comment and threaded reply :
 
@@ -26,6 +26,7 @@
   f) sort-> the recent to be shown active sort method.
 
 8) local Storage uses can be removed or modified as per requirement in `commentWidget.jsx` component.
+9) Nested comment and threaded replies are handled by component level recursion in `comment.js`.
 
 
 # Getting Started with Create React App
